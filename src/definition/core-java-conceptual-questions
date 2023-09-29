@@ -1,13 +1,14 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A.is code and instruction that de machine understand
 
 
 
 
 What jdk contains or composed of and define each components?
-A.
+A.JDK components:compiler, debugger,disassembler,JRE,Jvm ,core libraries
+
 
 
 
@@ -22,11 +23,11 @@ What are the IDEs available in the market to support java?
 A.
 
 
-
+gi
 Explain the entire java life cycle.
-what is class?
-What is object?
-What is the entry point of an application?
+what is class? blueprint
+What is object? is instance of class
+What is the entry point of an application? main method
 Why main is static?
 Which class is the superclass of all classes?
 What is difference between path and classpath variables?
