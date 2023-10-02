@@ -28,7 +28,42 @@ public class LowestNumber {
 		System.out.println("Data is reading from the Table (tbl_primenumber) and displaying to the console");
 		for(String st:lowestValue){
 			System.out.println(st);
+
 		}
+
+//find smallest number in array
+		for (int i = 0; i < array.length; i++) {
+			System.out.println(array[i]);
+
+		}
+
+// Initialize minValue with first element of array.
+
+		int minValue = array[0];
+// Loop through the array
+
+		for (int i = 0; i < array.length; i++) {
+
+
+
+// Compare elements of array with minValue andif condition true, make minValue to that
+
+			if (array[i] < minValue)
+
+				minValue = array[i];
+
+		}
+
+		System.out.println(
+
+				"Smallest element in array: "
+
+						+ minValue);
+
 	}
 
 }
+
+
+
+

@@ -8,8 +8,27 @@ public class Pattern {
 		 *
 		 *
 		 */
+		//.
+			//	number >=90, it decreases number by 1.
+		// number is between 70 and 89 ,  decreases  by 2.
+		// number is less than decreases  by 3.
+		//
+		int number = 100;
+
+		while (number >= 0) {
+			System.out.print(number + ",");
+			if (number > 90) {
+				number--;
+			} else if (number > 70) {
+				number -= 2;
+			} else {
+				number -= 3;
+			}
+		}
+	}
+}
 		
 
 
-	}
-}
+
+

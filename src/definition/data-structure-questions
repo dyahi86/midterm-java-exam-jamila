@@ -5,28 +5,90 @@ A.
 
 
 What are the various operations that can be performed on different Data Structures?
+Searching –
+Sorting –
+Insertion
+Deletion
+
 List out the areas in which data structures are applied extensively?
+ Data Structures are  used in  every aspect of Computer science
+ Compiler Design, Operating Systems, Graphics, Artificial Intelligence
+
 what is an Array?
+Arrays is sets of elements witch are same data type
 what is the difference between the Array and ArrayList?
+ arrays are fixed in size, you can not change the size of the array after it's constructed
+  ArrayLists are dynamic, allowing elements to be added or removed after initialization.
+
 what is LinkedList?
+ a dynamic data structure whose size increases as you add the elements and decreases as
+ you remove the elements from the list. The elements
+
 How is an Array different from Linked List?
+array;
+memory is allocated at compile time
+an array is a collection of elements of a similar data type
+An array is a collection of elements of a similar data type.
+fixed in size
+
+linkedlist;
+memory is allocated at run time
+dynamic size
+A linked list is a data structure similar to arrays. It interconnects each node to the next
+ node through a memory address link.
+
 what is queue?
+A queue is an object that represents a data structure designed to have the element inserted at the end of the queue,
+ and the element removed from the beginning of the queue.
+
+
 what is stack?
+The stack is a linear data structure that is used to store the collection of objects. It is based on Last-In-First-Out (LIFO).
+Java collection framework provides many interfaces and classes to store the collection of objects. One of them is the Stack
+class that provides different operations such as push, pop, search, etc
+
 what is FIFO and LIFO?
+LIFO is 'last in, first out' and uses a stack data structure.
+In a LIFO , the newest element added to the stack is processed first.
+  FIFO stands for 'first in, first out' and uses a queue data structure.
+
 what is the order of complexity?
 what is the best case to search an element from an array?
 what is the worst case to search an element from an array?
+
 what is tree in data structure?
+A tree data structure is defined as a collection of objects or entities
+ known as nodes that are linked together to represent or simulate hierarchy. A tree data
+structure is a non-linear data structure because it does not store in a sequential manner.
+
 what is graph in data structure?
+Graph is a non−linear data structure that can have more than one path between vertices.
+
 what is the difference between the HashTable and HashMap?
+HashMap and Hashtable stores values in key-value pairs. HashSet contains unique elements and HashMap, H
+ashTable contains unique keys.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 How HashMap works in java?
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+a runtime exception in Java that occurs when an array is accessed with an illegal index.
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
+Array;
+An array is a grouping of data elements of equivalent data type.
+In the case of an array, memory size is fixed, and it is not possible to change it during the run time.
+The elements are not dependent on each other.
+linked list;A linked list is a group of entities called a node. The node includes two segments:
+ data and address.
+ In the linked list, the placement of elements is allocated during the run time.
+ The data elements are dependent on each other.
 What is DFS and BFS?
 What is Recursion?
+Recursion is the technique of making a function call itself.
 What are linear and non linear data Structures?
+In a linear data structure, data elements are aranged in a linear order
+each and each element related previous  element
+In a non-linear data structure, data elements aranged in hierarchically manner
 What is Big-(O)-annotation?
 Outlined different kind of sorting algorithm with time complexity?
 

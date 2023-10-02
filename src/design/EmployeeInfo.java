@@ -1,5 +1,6 @@
 package design;
 
+import java.security.PrivateKey;
 import java.util.Scanner;
 
 public class EmployeeInfo {
@@ -21,7 +22,33 @@ public class EmployeeInfo {
 	 * declare few static and final fields and some non-static fields
 	 */
 	static String companyName;
-	
+	private  int emp_id;
+	private String emp_name;
+	private int emp_age;
+
+	public void setEmp_id(int emp_id) {
+		this.emp_id = emp_id;
+	}
+
+	public int getEmp_id() {
+		return emp_id;
+	}
+
+	public int getEmp_age() {
+		return emp_age;
+	}
+
+	public void setEmp_age(int emp_age) {
+		this.emp_age = emp_age;
+	}
+
+	public String getEmp_name() {
+		return emp_name;
+	}
+
+	public void setEmp_name(String emp_name) {
+		this.emp_name = emp_name;
+	}
 	/*
 	 * You must implement the logic for below 2 methods and 
 	 * following 2 methods are prototype as well for other methods need to be design,
