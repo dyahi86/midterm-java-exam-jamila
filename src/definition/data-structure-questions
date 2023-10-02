@@ -1,12 +1,14 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+
+A.data structure is a way of structuring or organizing the data and process them in an efficient way.
+ The different data structures helps in reducing time and space complexities.
 
 
 What are the various operations that can be performed on different Data Structures?
-Searching –
-Sorting –
+Searching
+Sorting
 Insertion
 Deletion
 
@@ -78,6 +80,7 @@ Array;
 An array is a grouping of data elements of equivalent data type.
 In the case of an array, memory size is fixed, and it is not possible to change it during the run time.
 The elements are not dependent on each other.
+linked list
 linked list;A linked list is a group of entities called a node. The node includes two segments:
  data and address.
  In the linked list, the placement of elements is allocated during the run time.
@@ -90,7 +93,9 @@ In a linear data structure, data elements are aranged in a linear order
 each and each element related previous  element
 In a non-linear data structure, data elements aranged in hierarchically manner
 What is Big-(O)-annotation?
+
 Outlined different kind of sorting algorithm with time complexity?
+bubble sorting,selection sorting,merge sorting,quik sorting
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
