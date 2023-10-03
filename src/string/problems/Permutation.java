@@ -44,10 +44,6 @@ public class Permutation {
         else
 
             uset.add(s.charAt(i));
-
-        // Create the permutation that contains the ith
-        // character and the permutation that does not
-        // contain the ith character
         String temp = "";
         if (i < s.length() - 1)
             temp = s.substring(0, i)
